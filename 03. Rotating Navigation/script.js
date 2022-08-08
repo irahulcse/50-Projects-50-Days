@@ -1,6 +1,13 @@
-var open = document.getElementById("open");
-var close = document.getElementById("close");
-var container = document.querySelector(".container");
+// var open = document.getElementById("open");
+// var close = document.getElementById("close");
+// var container = document.querySelector(".container");
 
-open.addEventListener("click", () => container.classList.add("show-nav"));
-close.addEventListener("click", () => container.classList.remove("show-nav"));
+// open.addEventListener("click", () => container.classList.add("show-nav"));
+// close.addEventListener("click", () => container.classList.remove("show-nav"));
+
+var open=document.getElementById('open')
+var close=document.getElementById('close')
+var container=document.getElementById('container')
+
+open.addEventListener('click',()=>container.classList.add("show-nav"))
+close.addEventListener('click',()=>container.classList.add("show-nav"))
